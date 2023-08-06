@@ -1,0 +1,31 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background: rgb(238,174,202);    
+    background: radial-gradient(circle, rgba(238,174,202,1) 17%, rgba(152,38,239,1) 67%);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.box{
+    height: 100%;
+    margin: 250px auto;
+    padding-left: 3rem;
+}
+
+.box h1{
+    font-size: 6rem;
+}
+
+@media (max-width :630px) {
+    .box h1{
+        font-size: 3rem;
+    }
+}
